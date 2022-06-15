@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAF_CL_REST_PETSTORE_CLIENT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Rest client for consuming PetStore API</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAF_CL_REST_PETSTORE_CLIENT</CLSNAME>
+     <CMPNAME>PET_CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a Pet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAF_CL_REST_PETSTORE_CLIENT</CLSNAME>
+     <CMPNAME>PET_DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete a Pet with supplied id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAF_CL_REST_PETSTORE_CLIENT</CLSNAME>
+     <CMPNAME>PET_READ_BY_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get a pet with supplied id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAF_CL_REST_PETSTORE_CLIENT</CLSNAME>
+     <CMPNAME>PET_UPDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update a pet using PUT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAF_CL_REST_PETSTORE_CLIENT</CLSNAME>
+     <CMPNAME>PET_UPDATE_NAME_AND_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update the name and status of the pet having the supplied ID</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
