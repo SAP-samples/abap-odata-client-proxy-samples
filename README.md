@@ -26,7 +26,7 @@ Please edit this file as it is the primary description file for your project. Yo
 
 ## Download and Installation
 
-1. Create a package (e.g.) 'TEST_CP_REST_SAMPLE'      
+1. Create a package (e.g.) `TEST_CP_REST_SAMPLE`      
 2. Start the report ZABAPGIT or ZABAPGIT_STANDALONE depending on what you have installed in your system  
 3. Create an offline repository or an online repository with the package and with the URL of this GitHub repository  
 4. Pull changes  
