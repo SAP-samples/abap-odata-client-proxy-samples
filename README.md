@@ -20,9 +20,21 @@ Please edit this file as it is the primary description file for your project. Yo
 -->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+
+This sample code uses the well-known [Swagger Petstore Sample](https://github.com/swagger-api/swagger-petstore) which can also be found on GitHub.
+
+It shows how the OData proxy client can be used to also consume pure REST services that are no OData service.  
+
+In the ABAP sample code you will have to replace the constant **petstore_url**.  
+<pre>CONST: petstore_url type string value ‘<Swagger Petstore Sample URL>’ .</pre>
+with the URL that points to the hosted version that is described in the above mentioned GitHub repository or an instance that you are running on your own.
 
 ## Requirements
+
+The ABAP code can be used on:
+- SAP BTP, ABAP Environment
+- SAP S4HANA Cloud, ABAP Environment
+- SAP ABAP Platform 2021 and later
 
 ## Download and Installation
 
