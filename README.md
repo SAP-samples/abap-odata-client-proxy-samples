@@ -12,7 +12,7 @@ The [Reuse Tool](https://reuse.software/) must be used for your samples project.
 3. The README.md file (this file):
 Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
 
-# CP REST SAMPLES
+# OData Client proxy samples
 <!-- Please include descriptive title -->
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
@@ -20,6 +20,12 @@ Please edit this file as it is the primary description file for your project. Yo
 -->
 
 ## Description
+
+The OData Client proxy allows to consume OData services but also pure REST services programmatically using ABAP. The following sample code can be used to perform more complex requests than the ones that are provided as code snippets within the ABAP Development Tools in Eclipse. 
+
+It also contains a sample for the consumption of a pure REST service.  
+
+### CP REST sample
 
 This sample code uses the well-known [Swagger Petstore Sample](https://github.com/swagger-api/swagger-petstore) which can also be found on GitHub.
 
@@ -29,7 +35,7 @@ In the ABAP sample code you will have to replace the constant **petstore_url**.
 <pre>CONST: petstore_url type string value ‘<Swagger Petstore Sample URL>’ .</pre>
 with the URL that points to the hosted version that is described in the above mentioned GitHub repository or an instance that you are running on your own.
 
-## Requirements
+## Requirements  
 
 The ABAP code can be used on:
 - SAP BTP, ABAP Environment
