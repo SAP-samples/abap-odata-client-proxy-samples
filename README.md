@@ -1,5 +1,7 @@
 # OData Client proxy samples
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-odata-client-proxy-samples)](https://api.reuse.software/info/github.com/SAP-samples/abap-odata-client-proxy-samples)
+
 ## Description
 
 The OData Client proxy allows to consume OData services but also pure REST services programmatically using ABAP. The following sample code can be used to perform more complex requests than the ones that are provided as code snippets within the ABAP Development Tools in Eclipse. 
